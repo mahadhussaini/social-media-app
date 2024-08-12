@@ -1,4 +1,3 @@
-// src/pages/SignupPage.js
 import React, { useState } from "react";
 import {
   Container,
@@ -39,11 +38,10 @@ function SignupPage() {
     }
 
     try {
-      // Replace this with actual signup logic
       await new Promise((resolve) => setTimeout(resolve, 1000));
 
       console.log("Signup:", { userName, password });
-      navigate("/login"); // Redirect to login page after signup
+      navigate("/login");
     } catch (err) {
       setError("Signup failed. Please try again.");
     } finally {

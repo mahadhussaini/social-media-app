@@ -1,4 +1,3 @@
-// src/components/Notifications.js
 import React from "react";
 import {
   Card,

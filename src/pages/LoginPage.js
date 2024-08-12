@@ -1,4 +1,3 @@
-// src/pages/LoginPage.js
 import React, { useState, useContext } from "react";
 import {
   Container,
@@ -34,12 +33,10 @@ function LoginPage() {
     }
 
     try {
-      // Replace with actual authentication logic
       await new Promise((resolve) => setTimeout(resolve, 1000));
 
-      // Simulate successful login
-      login(); // Update authentication context
-      navigate("/"); // Redirect to the home page
+      login();
+      navigate("/");
     } catch (err) {
       setError("Login failed. Please check your credentials and try again.");
     } finally {

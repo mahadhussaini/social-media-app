@@ -1,4 +1,3 @@
-// src/components/PostForm.js
 import React, { useState } from "react";
 import {
   Card,
@@ -14,7 +13,6 @@ function PostForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle post submission
     console.log("Post submitted:", content);
     setContent("");
   };

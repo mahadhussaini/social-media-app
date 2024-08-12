@@ -1,4 +1,3 @@
-// src/components/UserProfile.js
 import React from "react";
 import {
   Card,
@@ -11,7 +10,7 @@ import {
 } from "@mui/material";
 
 function UserProfile() {
-  const instagramUrl = "https://www.instagram.com/mahad._.hussaini"; // Replace with your Instagram URL
+  const instagramUrl = "https://www.instagram.com/mahad._.hussaini";
 
   return (
     <Card sx={{ mb: 2, width: "100%", borderRadius: 2, boxShadow: 3 }}>
@@ -22,8 +21,8 @@ function UserProfile() {
               sx={{
                 width: 80,
                 height: 80,
-                border: "2px solid #3f51b5", // Add border color
-                boxShadow: 2, // Add shadow for emphasis
+                border: "2px solid #3f51b5",
+                boxShadow: 2,
               }}
               src="https://scontent.cdninstagram.com/v/t51.2885-19/453199447_1130467268029759_8449102876320953606_n.jpg?stp=dst-jpg_p206x206&_nc_cat=111&ccb=1-7&_nc_sid=fcb8ef&_nc_ohc=clewihgGdcUQ7kNvgEBfXtD&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=00_AYDLxXfdXOxZw1AZm04tHRy0rk2pLkggQCn4T-DlR62ubw&oe=66C017B3"
               alt="User Profile"
@@ -44,9 +43,9 @@ function UserProfile() {
                 variant="outlined"
                 color="primary"
                 sx={{ borderRadius: 1 }}
-                href={instagramUrl} // Link to Instagram profile
-                target="_blank" // Open link in a new tab
-                rel="noopener noreferrer" // Security improvement
+                href={instagramUrl}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 View Profile
               </Button>

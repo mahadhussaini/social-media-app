@@ -1,4 +1,3 @@
-// src/components/Navbar.js
 import React, { useContext } from "react";
 import { AppBar, Toolbar, Typography, Button } from "@mui/material";
 import { AuthContext } from "../context/AuthContext";
@@ -9,8 +8,8 @@ function Navbar() {
   const navigate = useNavigate();
 
   const handleLogout = () => {
-    logout(); // Update the authentication context
-    navigate("/login"); // Redirect to the login page
+    logout();
+    navigate("/login");
   };
 
   return (
@@ -18,7 +17,7 @@ function Navbar() {
       position="fixed"
       sx={{
         zIndex: (theme) => theme.zIndex.appBar,
-        backgroundColor: "#3f51b5", // Customize the background color
+        backgroundColor: "#3f51b5",
       }}
     >
       <Toolbar>

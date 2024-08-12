@@ -1,4 +1,3 @@
-// src/components/PostCard.js
 import React from "react";
 import {
   Card,

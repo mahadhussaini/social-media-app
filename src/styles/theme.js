@@ -3,25 +3,25 @@ import { createTheme } from "@mui/material/styles";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#1976d2", // A vibrant blue
+      main: "#1976d2",
     },
     secondary: {
-      main: "#dc004e", // A bold pink
+      main: "#dc004e",
     },
     background: {
-      default: "#e3f2fd", // A light, calming blue background
-      paper: "#ffffff", // White background for paper elements
+      default: "#e3f2fd",
+      paper: "#ffffff",
     },
     text: {
-      primary: "#333333", // Dark gray for text
-      secondary: "#666666", // Medium gray for secondary text
+      primary: "#333333",
+      secondary: "#666666",
     },
   },
   typography: {
     fontSize: 14,
     h6: {
       fontSize: "1.25rem",
-      fontWeight: 600, // Make heading slightly bolder
+      fontWeight: 600,
     },
     body2: {
       fontSize: "0.875rem",
@@ -31,8 +31,8 @@ const theme = createTheme({
     MuiCard: {
       styleOverrides: {
         root: {
-          borderRadius: 12, // Slightly more rounded corners
-          boxShadow: "0 8px 16px rgba(0, 0, 0, 0.1)", // Deeper shadow for a more pronounced effect
+          borderRadius: 12,
+          boxShadow: "0 8px 16px rgba(0, 0, 0, 0.1)",
         },
       },
     },
@@ -41,17 +41,17 @@ const theme = createTheme({
         root: {
           borderRadius: 20,
           textTransform: "none",
-          fontWeight: 600, // Slightly bolder text for buttons
+          fontWeight: 600,
         },
         contained: {
-          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)", // Add shadow to contained buttons for depth
+          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
         },
       },
     },
     MuiAppBar: {
       styleOverrides: {
         root: {
-          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", // Light shadow for the AppBar
+          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
         },
       },
     },
